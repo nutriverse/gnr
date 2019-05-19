@@ -13,9 +13,14 @@ Description: The Global Nutrition Report's purpose is to produce a single,
     allow users to interrogate the same data and produce customised charts and
     other visualisation products.
 Depends: R (>= 2.10)
+Imports: readxl,
+    tibble,
+    ggplot2
+Suggests: covr
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Suggests: 
-    covr
+URL: https://github.com/nutriverse/gnr
+BugReports: https://github.com/nutriverse/gnr/issues
+
