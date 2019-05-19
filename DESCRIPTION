@@ -12,6 +12,8 @@ Description: The Global Nutrition Report's purpose is to produce a single,
     visualisation produced in the report. This package contains functions that
     allow users to interrogate the same data and produce customised charts and
     other visualisation products.
+Depends: R (>= 2.10)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
