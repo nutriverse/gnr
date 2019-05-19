@@ -10,6 +10,12 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/gnr)](https://cran.r-project.org/package=gnr)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/gnr)](https://cran.r-project.org/package=gnr)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/gnr)](https://cran.r-project.org/package=gnr)
 [![Travis build
 status](https://travis-ci.org/nutriverse/gnr.svg?branch=master)](https://travis-ci.org/nutriverse/gnr)
 [![AppVeyor build
@@ -29,7 +35,8 @@ customised charts and other visualisation products.
 
 ## Installation
 
-`gnr` is available via GitHub as follows:
+`gnr` is not yet availabel on CRAN. To install `gnr`, use GitHub as
+follows:
 
 ``` r
 if(!require(devtools)) install.packages("devtools")
