@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gnr: R companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
+# gnr: R Companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
 
 <!-- badges: start -->
 
