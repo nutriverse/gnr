@@ -1,0 +1,17 @@
+Package: gnr
+Type: Package
+Title: R Companion to the Global Nutrition Report
+Version: 0.1.0
+Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
+                  email = "ernest@guevarra.io", role = c("aut", "cre"))
+Description: The Global Nutrition Report's purpose is to produce a single,
+    authoritative source on progress toward addressing critical gaps in the
+    nutrition accountability framework, both at national and international
+    levels. This is a companion package to the Global Nutrition Report primarily
+    for accessing the data used in the report and to reproduce the data
+    visualisation produced in the report. This package contains functions that
+    allow users to interrogate the same data and produce customised charts and
+    other visualisation products.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
