@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# gnr: R Companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
+# gnr: R companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
 
 <!-- badges: start -->
 <!-- badges: end -->
