@@ -10,7 +10,8 @@
 #'
 #' @docType package
 #' @name gnr
-#'
+#' @export theme_gnr
+#' @importFrom ggplot2 rel margin element_text unit
 #'
 #
 ################################################################################
