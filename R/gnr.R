@@ -12,7 +12,9 @@
 #' @name gnr
 #' @export theme_gnr
 #' @importFrom ggplot2 rel margin element_text unit
+#' @importFrom utils download.file
+#' @importFrom tibble tibble
 #'
 #
 ################################################################################
-NULL
+"_PACKAGE"

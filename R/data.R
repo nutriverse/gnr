@@ -15,3 +15,26 @@
 #
 ################################################################################
 "indicator_descriptions"
+
+
+################################################################################
+#
+#'
+#' Download links for various GNR datasets
+#'
+#' @format A tibble with 4 columns and 5 rows:
+#'
+#' **Variable** | **Description**
+#' :--- | :---
+#' **year** | Year dataste was created
+#' **code** | Dataset code
+#' **name** | Name of dataset
+#' **link** | Download link for dataset
+#'
+#' @source [Global Nutrition Report](https://globalnutritionreport.org)
+#'
+#'
+#
+################################################################################
+"gnr_data"
+
