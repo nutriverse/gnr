@@ -25,15 +25,15 @@ download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021)),
 
   ## Get link for appropriate year
   if (.year == "2018") {
-    link <- gnr::gnr_data$link[gnr::gnr_data$year == 2018]
+    link <- gnr::gnr_data$link[gnr::gnr_data$code == "gnr2018"]
   }
 
   if (.year == "2020") {
-    link <- gnr::gnr_data$link[gnr::gnr_data$year == 2020]
+    link <- gnr::gnr_data$link[gnr::gnr_data$code == "gnr2020"]
   }
 
   if (.year == "2021") {
-    link <- gnr::gnr_data$link[gnr::gnr_data$year == 2021]
+    link <- gnr::gnr_data$link[gnr::gnr_data$code == "gnr2021"]
   }
 
   ## Create download path
