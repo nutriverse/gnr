@@ -20,8 +20,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/gnr)](https://cran.r-project.org/package=gnr)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/gnr)](https://cran.r-project.org/package=gnr)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/gnr)](https://cran.r-project.org/package=gnr)
-[![Travis build status](https://travis-ci.org/nutriverse/gnr.svg?branch=master)](https://travis-ci.org/nutriverse/gnr)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/nutriverse/gnr?branch=master&svg=true)](https://ci.appveyor.com/project/nutriverse/gnr)
+[![R-CMD-check](https://github.com/nutriverse/gnr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nutriverse/gnr/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/nutriverse/gnr/branch/master/graph/badge.svg)](https://codecov.io/gh/nutriverse/gnr?branch=master)
 <!-- badges: end -->
 

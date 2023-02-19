@@ -18,7 +18,7 @@
 #
 ################################################################################
 
-download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021)),
+download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021, 2022)),
                               path = ".") {
   ## Get year
   .year <- match.arg(.year)

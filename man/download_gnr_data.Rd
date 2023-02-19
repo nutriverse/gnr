@@ -4,7 +4,7 @@
 \alias{download_gnr_data}
 \title{Download GNR data}
 \usage{
-download_gnr_data(.year = as.character(c(2018, 2020, 2021)), path = ".")
+download_gnr_data(.year = as.character(c(2018, 2020, 2021, 2022)), path = ".")
 }
 \arguments{
 \item{.year}{A character value of the report year to download. Default to

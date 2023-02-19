@@ -5,17 +5,17 @@
 \alias{gnr_data}
 \title{Download links for various GNR datasets}
 \format{
-A tibble with 4 columns and 5 rows:
-
-**Variable** | **Description**
-:--- | :---
-**year** | Year dataste was created
-**code** | Dataset code
-**name** | Name of dataset
-**link** | Download link for dataset
+A tibble with 5 columns and 6 rows:\tabular{ll}{
+   \strong{Variable} \tab \strong{Description} \cr
+   \strong{year} \tab Year dataste was created \cr
+   \strong{code} \tab Dataset code \cr
+   \strong{file_type} \tab Download file type \cr
+   \strong{name} \tab Name of dataset \cr
+   \strong{link} \tab Download link for dataset \cr
+}
 }
 \source{
-[Global Nutrition Report](https://globalnutritionreport.org)
+\href{https://globalnutritionreport.org}{Global Nutrition Report}
 }
 \usage{
 gnr_data
