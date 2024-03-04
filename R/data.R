@@ -22,12 +22,13 @@
 #'
 #' Download links for various GNR datasets
 #'
-#' @format A tibble with 4 columns and 5 rows:
+#' @format A tibble with 5 columns and 6 rows:
 #'
 #' **Variable** | **Description**
 #' :--- | :---
-#' **year** | Year dataste was created
+#' **year** | Year dataset was created
 #' **code** | Dataset code
+#' **file_type** | Download file type
 #' **name** | Name of dataset
 #' **link** | Download link for dataset
 #'

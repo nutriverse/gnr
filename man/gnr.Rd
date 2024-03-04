@@ -2,8 +2,8 @@
 % Please edit documentation in R/gnr.R
 \docType{package}
 \name{gnr}
-\alias{gnr}
 \alias{gnr-package}
+\alias{gnr}
 \title{gnr: R companion to the Global Nutrition Report}
 \description{
 The \code{gnr} package is a companion package to the Global Nutrition Report

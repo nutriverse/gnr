@@ -2,7 +2,7 @@
 % Please edit documentation in R/download_gnr_data.R
 \name{download_gnr_country_profiles}
 \alias{download_gnr_country_profiles}
-\title{Download GNS country profiles dataset}
+\title{Download GNR country profiles dataset}
 \usage{
 download_gnr_country_profiles(path = ".")
 }
@@ -14,7 +14,7 @@ current working directory}
 A tibble  providing details of file downloaded.
 }
 \description{
-Download GNS country profiles dataset
+Download GNR country profiles dataset
 }
 \examples{
 download_gnr_country_profiles(path = tempdir())

@@ -12,16 +12,13 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# gnr: R companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
+
+# gnr: R Companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/gnr)](https://cran.r-project.org/package=gnr)
-[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/gnr)](https://cran.r-project.org/package=gnr)
-[![CRAN downloads](https://cranlogs.r-pkg.org/badges/gnr)](https://cran.r-project.org/package=gnr)
-[![Travis build status](https://travis-ci.org/nutriverse/gnr.svg?branch=master)](https://travis-ci.org/nutriverse/gnr)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/nutriverse/gnr?branch=master&svg=true)](https://ci.appveyor.com/project/nutriverse/gnr)
+[![R-CMD-check](https://github.com/nutriverse/gnr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nutriverse/gnr/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/nutriverse/gnr/branch/master/graph/badge.svg)](https://codecov.io/gh/nutriverse/gnr?branch=master)
 <!-- badges: end -->
 
@@ -29,10 +26,12 @@ The Global Nutrition Report's purpose is to produce a single, authoritative sour
 
 ## Installation
 
-`gnr` is not yet availabel on CRAN. To install `gnr`, use GitHub as follows:
+`gnr` is not yet available on CRAN. To install `gnr`, use GitHub as follows:
 
 ```{r, echo = TRUE, eval = FALSE}
-if(!require(devtools)) install.packages("devtools")
-devtools::install_github("nutriverse/gnr")
+if(!require(remotes)) install.packages("remotes")
+remotes::install_github("nutriverse/gnr")
 ```
+
+## What does `gnr` do?
 
