@@ -1,0 +1,18 @@
+citHeader("To cite gnr in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "gnr: R companion to the Global Nutrition Report",
+  author   = person("Ernest Guevarra"),
+  journal  = "2023",
+  year     = "R package version 0.0.0.9000",
+  url      = "https://nutriverse.io/gnr/",
+  doi      = "",
+  textVersion = paste(
+    "Ernest Guevarra (2023).",
+    "gnr: R companion to the Global Nutrition Report",
+    "R package version 0.0.0.9000",
+    "URL https://nutriverse.io/gnr/",
+    ""
+  )
+)

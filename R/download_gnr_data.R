@@ -60,7 +60,7 @@ download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021, 2022)),
 ################################################################################
 #
 #'
-#' Download GNS country profiles dataset
+#' Download GNR country profiles dataset
 #'
 #' @param path Directory to download the specified report into. Default to
 #'   current working directory

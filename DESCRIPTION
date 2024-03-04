@@ -1,7 +1,7 @@
 Package: gnr
 Type: Package
 Title: R Companion to the Global Nutrition Report
-Version: 0.1.0
+Version: 0.0.0.9000
 Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
                   email = "ernest@guevarra.io", role = c("aut", "cre"))
 Description: The Global Nutrition Report's purpose is to produce a single,
@@ -14,14 +14,17 @@ Description: The Global Nutrition Report's purpose is to produce a single,
     other visualisation products.
 Depends: R (>= 2.10)
 Imports: 
-    readxl,
     tibble,
     ggplot2
-Suggests: covr
+Suggests: 
+    covr,
+    readxl,
+    spelling
 License: GPL-3
 Encoding: UTF-8
+Language: en-GB
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/nutriverse/gnr
 BugReports: https://github.com/nutriverse/gnr/issues

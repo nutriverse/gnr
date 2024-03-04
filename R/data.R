@@ -26,7 +26,7 @@
 #'
 #' **Variable** | **Description**
 #' :--- | :---
-#' **year** | Year dataste was created
+#' **year** | Year dataset was created
 #' **code** | Dataset code
 #' **file_type** | Download file type
 #' **name** | Name of dataset

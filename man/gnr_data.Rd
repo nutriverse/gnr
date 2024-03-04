@@ -7,7 +7,7 @@
 \format{
 A tibble with 5 columns and 6 rows:\tabular{ll}{
    \strong{Variable} \tab \strong{Description} \cr
-   \strong{year} \tab Year dataste was created \cr
+   \strong{year} \tab Year dataset was created \cr
    \strong{code} \tab Dataset code \cr
    \strong{file_type} \tab Download file type \cr
    \strong{name} \tab Name of dataset \cr

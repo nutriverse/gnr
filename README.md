@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gnr: R companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
+# gnr: R Companion to the Global Nutrition Report <img src="man/figures/gnr.png" width="200px" align="right" />
 
 <!-- badges: start -->
 
@@ -10,12 +10,6 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/gnr)](https://cran.r-project.org/package=gnr)
-[![CRAN
-downloads](https://cranlogs.r-pkg.org/badges/grand-total/gnr)](https://cran.r-project.org/package=gnr)
-[![CRAN
-downloads](https://cranlogs.r-pkg.org/badges/gnr)](https://cran.r-project.org/package=gnr)
 [![R-CMD-check](https://github.com/nutriverse/gnr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nutriverse/gnr/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/nutriverse/gnr/branch/master/graph/badge.svg)](https://codecov.io/gh/nutriverse/gnr?branch=master)
@@ -32,10 +26,12 @@ customised charts and other visualisation products.
 
 ## Installation
 
-`gnr` is not yet availabel on CRAN. To install `gnr`, use GitHub as
+`gnr` is not yet available on CRAN. To install `gnr`, use GitHub as
 follows:
 
 ``` r
-if(!require(devtools)) install.packages("devtools")
-devtools::install_github("nutriverse/gnr")
+if(!require(remotes)) install.packages("remotes")
+remotes::install_github("nutriverse/gnr")
 ```
+
+## What does `gnr` do?
