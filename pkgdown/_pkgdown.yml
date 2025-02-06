@@ -42,7 +42,7 @@ navbar:
       aria-label: Bluesky
       href: https://bsky.app/profile/nutriverse.io
 
-home:
+# home:
   # links:
   # - text: Read more about Simplified Lot Quality Assurance Sampling Evaluation of
   #     Access and Coverage (SLEAC)
@@ -62,4 +62,3 @@ reference:
     - indicator_description
     - gnr_data
     - pop_data
-    
