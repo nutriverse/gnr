@@ -10,6 +10,9 @@
 #' }
 #'
 #' @source \href{https://globalnutritionreport.org}{Global Nutrition Report}
+#' 
+#' @examples
+#' indicator_description
 #'
 "indicator_description"
 
@@ -28,6 +31,9 @@
 #' **link** | Download link for dataset
 #'
 #' @source [Global Nutrition Report](https://globalnutritionreport.org)
+#' 
+#' @examples
+#' gnr_data
 #'
 "gnr_data"
 

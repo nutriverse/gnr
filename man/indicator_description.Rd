@@ -23,4 +23,8 @@ indicator_description
 Description of variables that occurs in the Global Nutrition Report (GNR)
 dataset
 }
+\examples{
+indicator_description
+
+}
 \keyword{datasets}
