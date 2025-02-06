@@ -16,17 +16,9 @@ indicator_descriptions <- read_xlsx(path = destFile,
                                     sheet = excel_sheets(destFile)[2],
                                     range = "A5:C714")
 
-usethis::use_data(indicator_descriptions, overwrite = TRUE)
+usethis::use_data(indicator_descriptions, compress = "xz", overwrite = TRUE)
 
 
-
-################################################################################
-#
-#'
-#'
-#'
-#
-################################################################################
 
 year <- c(2018, 2020, 2021, 2022, 2021, 2022)
 

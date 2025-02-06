@@ -1,5 +1,3 @@
-################################################################################
-#
 #'
 #' Download GNR data
 #'
@@ -15,8 +13,6 @@
 #'
 #' @export
 #'
-#
-################################################################################
 
 download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021, 2022)),
                               path = ".") {
@@ -57,8 +53,6 @@ download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021, 2022)),
 }
 
 
-################################################################################
-#
 #'
 #' Download GNR country profiles dataset
 #'
@@ -72,8 +66,6 @@ download_gnr_data <- function(.year = as.character(c(2018, 2020, 2021, 2022)),
 #'
 #' @export
 #'
-#
-################################################################################
 
 download_gnr_country_profiles <- function(path = ".") {
   link <- gnr::gnr_data$link[gnr::gnr_data$code == "country_profiles"]
@@ -96,8 +88,6 @@ download_gnr_country_profiles <- function(path = ".") {
 }
 
 
-################################################################################
-#
 #'
 #' Download Nutrition for Growth Assessments data
 #'
@@ -111,8 +101,6 @@ download_gnr_country_profiles <- function(path = ".") {
 #'
 #' @export
 #'
-#
-################################################################################
 
 download_n4g_data <- function(path = ".") {
   link <- gnr::gnr_data$link[gnr::gnr_data$code == "n4g"]
@@ -133,7 +121,3 @@ download_n4g_data <- function(path = ".") {
     path = download_path
   )
 }
-
-
-
-

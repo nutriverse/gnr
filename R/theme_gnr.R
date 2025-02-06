@@ -1,5 +1,4 @@
-################################################################################
-#
+#' 
 #' Global Nutrition Report ggplot theme
 #'
 #' @param base_size Base font size
@@ -12,8 +11,6 @@
 #'
 #' @export
 #'
-#
-################################################################################
 
 theme_gnr <- function (base_size = 11, base_family = ""){
   half_line <- base_size/2
