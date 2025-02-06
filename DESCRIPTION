@@ -22,7 +22,8 @@ Imports:
 Suggests: 
     covr,
     readxl,
-    spelling
+    spelling,
+    testthat (>= 3.0.0)
 License: GPL-3
 Encoding: UTF-8
 Language: en-GB
@@ -31,3 +32,4 @@ RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/nutriverse/gnr, https://nutriverse.io/gnr/
 BugReports: https://github.com/nutriverse/gnr/issues
+Config/testthat/edition: 3
