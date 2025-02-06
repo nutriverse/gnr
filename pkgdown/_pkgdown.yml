@@ -1,0 +1,65 @@
+title: gnr
+
+url: https://nutriverse.io/gnr/
+
+development:
+  mode: unreleased
+
+template:
+  bootstrap: 5
+  theme: breeze-light
+  math-rendering: mathjax
+  ganalytics: ""
+  bslib:
+    bootswatch: pulse    
+    pkgdown-nav-height: 100px
+    success: "#004225"
+
+navbar:
+  bg: success
+  type: dark
+  structure:
+    left:  [home, intro, reference, articles, news]
+    right: [search, website, mastodon, bluesky, github]
+  components:
+    # articles:
+    #   text: Articles
+    #   menu:
+    #   - text: SLEAC Sampling Plan 
+    #     href: articles/sampling-plan.html
+    #   - text: SLEAC Classification
+    #     href: articles/classification.html
+    website:
+      icon: "fa-globe"
+      aria-label: Website
+      href: https://nutriverse.io
+    mastodon:
+      icon: "fab fa-mastodon fa-lg"
+      aria-label: Mastodon
+      href: https://mastodon.social/@nutriverse
+    bluesky:
+      icon: "fab fa-bluesky fa-lg"
+      aria-label: Bluesky
+      href: https://bsky.app/profile/nutriverse.io
+
+home:
+  # links:
+  # - text: Read more about Simplified Lot Quality Assurance Sampling Evaluation of
+  #     Access and Coverage (SLEAC)
+  #   href: https://www.fantaproject.org/sites/default/files/resources/SQUEAC-SLEAC-Technical-Reference-Oct2012_0.pdf
+
+reference:
+  - title: Download data and assets
+    contents:
+    - starts_with("download")
+
+  - title: Plot
+    contents:
+    - theme_gnr
+
+  - title: Datasets
+    contents:
+    - indicator_description
+    - gnr_data
+    - pop_data
+    

@@ -11,7 +11,7 @@
 #'
 #' @source \href{https://globalnutritionreport.org}{Global Nutrition Report}
 #'
-"indicator_descriptions"
+"indicator_description"
 
 
 #'
