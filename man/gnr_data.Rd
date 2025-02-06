@@ -23,4 +23,8 @@ gnr_data
 \description{
 Download links for various GNR datasets
 }
+\examples{
+gnr_data
+
+}
 \keyword{datasets}

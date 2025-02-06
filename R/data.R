@@ -1,5 +1,4 @@
-################################################################################
-#
+#' 
 #' Description of variables that occurs in the Global Nutrition Report (GNR)
 #' dataset
 #'
@@ -11,14 +10,13 @@
 #' }
 #'
 #' @source \href{https://globalnutritionreport.org}{Global Nutrition Report}
+#' 
+#' @examples
+#' indicator_description
 #'
-#
-################################################################################
-"indicator_descriptions"
+"indicator_description"
 
 
-################################################################################
-#
 #'
 #' Download links for various GNR datasets
 #'
@@ -33,9 +31,9 @@
 #' **link** | Download link for dataset
 #'
 #' @source [Global Nutrition Report](https://globalnutritionreport.org)
+#' 
+#' @examples
+#' gnr_data
 #'
-#'
-#
-################################################################################
 "gnr_data"
 
