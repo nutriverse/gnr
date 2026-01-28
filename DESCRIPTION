@@ -28,7 +28,7 @@ License: GPL-3
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/nutriverse/gnr, https://nutriverse.io/gnr/
 BugReports: https://github.com/nutriverse/gnr/issues
